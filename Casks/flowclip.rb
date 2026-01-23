@@ -9,7 +9,7 @@ cask "flowclip" do
 
   auto_updates true
   conflicts_with cask: "maccy"
-  depends_on macos: ">= :mojave"
+  depends_on macos: ">= :sonoma"
 
   app "FlowClip.app"
 
