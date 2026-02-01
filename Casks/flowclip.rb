@@ -1,6 +1,6 @@
 cask "flowclip" do
-  version "1.0.6"
-  sha256 "7d2359f6e2e8aec016b19ed983e2cf75a3f92ea3c5aaf4ca54ec87a0ed222375"
+  version "1.0.7"
+  sha256 "9b36ecf4f304e12676f4346ea142931130960c959e84e2c9839f8c0c44106011"
 
   url "https://github.com/gityeop/FlowClip/releases/download/v#{version}/FlowClip.zip"
   name "FlowClip"
