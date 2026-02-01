@@ -1,8 +1,8 @@
 cask "flowclip" do
-  version "1.0.5"
-  sha256 "2b0f0581e86545dee33a74d057718de02cab1f30a8c36d9211c4057f27049df9"
+  version "1.0.6"
+  sha256 "7d2359f6e2e8aec016b19ed983e2cf75a3f92ea3c5aaf4ca54ec87a0ed222375"
 
-  url "https://github.com/gityeop/FlowClip/releases/download/v#{version}/FlowClip_1.0.5.zip"
+  url "https://github.com/gityeop/FlowClip/releases/download/v#{version}/FlowClip.zip"
   name "FlowClip"
   desc "Clipboard manager with Queue support (Fork of Maccy)"
   homepage "https://github.com/gityeop/FlowClip"
