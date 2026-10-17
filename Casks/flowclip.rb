@@ -9,14 +9,14 @@ cask "flowclip" do
 
   auto_updates true
   conflicts_with cask: "maccy"
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "FlowClip.app"
 
   uninstall quit: "com.gityeop.FlowClip"
 
   zap trash: [
-    "~/Library/Preferences/com.gityeop.FlowClip.plist",
     "~/Library/Application Support/FlowClip",
+    "~/Library/Preferences/com.gityeop.FlowClip.plist",
   ]
 end
